@@ -1,0 +1,38 @@
+.mainContainer {
+    width: 80%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    margin: 100px;
+
+}
+
+.boxHead {
+    font-size-adjust: 35px;
+    font-weight: 700;
+    color:  #0f172a;
+    font-family: "Roboto";
+}
+.boxesContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.boxItem {
+    color: white;
+    font-size: 25px;
+    font-family: "Bree-Serif";
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
